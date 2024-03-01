@@ -109,6 +109,15 @@ a:hover {
     margin-bottom: auto;
 }
 
+.formulario-p2 {
+    position: relative;
+    left: 70%;
+    bottom: 27rem;
+    top: -23rem;
+    padding-bottom: -5rem;
+    margin-bottom: auto;
+}
+
 input[type="submit"] {
     background-color: #424242;
     color: white;
