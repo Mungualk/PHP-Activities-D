@@ -23,7 +23,7 @@
                     <img src="img/gato-logo.jpeg" alt="gato-logo" id="logo">
                 </div>
             </a>
-            <h2 class="nombre-tarea">Tarea 1.7</h2>
+            <h2 class="nombre-tarea">Formulota</h2>
         </div>
     </header>
     <div class="container">
