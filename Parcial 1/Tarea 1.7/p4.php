@@ -15,7 +15,7 @@
                     <img src="img/gato-logo.jpeg" alt="gato-logo" id="logo">
                 </div>
             </a>
-            <h2 class="nombre-tarea">Escalerad de asteriscos</h2>
+            <h2 class="nombre-tarea">Escalera de asteriscos</h2>
         </div>
     </header>
     <div class="container">
