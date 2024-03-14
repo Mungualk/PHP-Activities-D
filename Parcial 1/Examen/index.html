@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Problema 1</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <a href="index.php">
+                <h1 class ="nabla-title"><a href="/comoquieras/index.html">Éboueur</a></h1>
+                <div class="img-logo">
+                    <img src="img/gato-logo.jpeg" alt="gato-logo" id="logo">
+                </div>
+            </a>
+            <h2 class="nombre-tarea">Examen</h2>
+        </div>
+    </header>
+    <div class="container">
+        <h2>"Al revés"</h2>
+        <div class = "rellenoxd">
+            <hr>
+            <form action="reves.php" method="post">
+                <table>
+                    <tr>
+                        <td>Inicio de la inversión: </td>
+                        <td>
+                            <input type="text" name="inicio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Final de la inversión: </td>
+                        <td>
+                            <input type="text" name ="final">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Frase: </td>
+                        <td>
+                            <input type="text" name="frs">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <hr>
+            <h2>"Dime quién ganó"</h2>
+            <p>Inserta cada calificación dada por los 3 jueces</p>
+            <form action="dqg.php" method="post">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Alumno A</td>
+                        <td>Alumno B</td>
+                    </tr>
+                    <tr>
+                        <td>1.-</td>
+                        <td>
+                            <input type="text" name="a1">
+                        </td>
+                        <td>
+                            <input type="text" name="b1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2.-</td>
+                        <td>
+                            <input type="text" name="a2">
+                        </td>
+                        <td>
+                            <input type="text" name="b2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3.-</td>
+                        <td>
+                            <input type="text" name="a3">
+                        </td>
+                        <td>
+                            <input type="text" name="b3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div class="directorios">
+                <nav>
+                    <ul class = "lista-directorios">
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+</style>
+</html>
