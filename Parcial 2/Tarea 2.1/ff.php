@@ -1,21 +1,21 @@
 <?php
     function g ($b, $c)
     {
-        $s = ((7 * $b) - 3) % (pow($c, 2) + 1);
+        $s = (int)((7 * $b) - 3) % (pow($c, 2) + 1);
         return $s;   
     }
     function f ($a) 
     {
-        $s = pow($a, 3) * 4;
-        $aux = g(2*$a, $a*(-3));
+        $s = (int)pow($a, 3) * 4;
+        $aux = (int)g(2*$a, $a*(-3));
         $s += $aux;
         return $s; 
 
     }
     function h ($x, $y, $z)
     {
-        $s = f(($x)/($y));
-        $pe = (g(($z)/($y), $x));
+        $s = f((int)(($x)/($y)));
+        $pe = g((int)(($z)/($y)), $x);
         $pe *= 3;
         $s += $pe;
         return $s;
