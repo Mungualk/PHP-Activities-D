@@ -1,0 +1,35 @@
+- Landing page (Página antes del login, bienvenida, texto, colorwe)
+	cosas usuales:
+	- Boton de acceso
+	- Boton de registro
+	- 
+- Página de registro
+	- Nombre
+	- Login
+	- Correo
+	- Contraseña
+	- Confirmación de la contraseña
+
+
+- Página de Login
+	- Usuario
+	- Contraseña
+	- Recuperación de contraseñas
+
+- CRUD (Con una base de datos de "Alumnos" genérica)
+	- Matrícula
+	- Apellidos
+	- Nombre
+	- Fecha de nacimiento
+	- Dirección
+	- Correo
+	- Nombre del padre
+	- Correo
+	- Teléfono
+
+- Base de datos 
+	- Usuarios
+	- Alumnos
+	
+	
+	
