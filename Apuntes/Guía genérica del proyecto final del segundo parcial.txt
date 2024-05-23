@@ -2,7 +2,8 @@
 	cosas usuales:
 	- Boton de acceso
 	- Boton de registro
-	- 
+
+
 - Página de registro
 	- Nombre
 	- Login
